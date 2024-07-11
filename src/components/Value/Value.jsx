@@ -14,7 +14,7 @@ import data from '../../utils/accordion';
 import "./Value.css";
 const Value = () => {
   return (
-    <div className="value">
+    <div id="our-value" className="value">
       <div className="value-left">
         <div className="value-img">
           <img src={value} alt="" />

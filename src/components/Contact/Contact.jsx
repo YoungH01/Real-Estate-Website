@@ -3,7 +3,7 @@ import "./Contact.css";
 import contactPNG from "../../assets/image/contact.jpg";
 const Contact = () => {
   return (
-    <div className="contact">
+    <div id="contact-us" className="contact">
       <div className="contact-left">
         <span className="orangeText">Our Contact Us</span>
         <span className="primaryText">Easy to contact us</span>

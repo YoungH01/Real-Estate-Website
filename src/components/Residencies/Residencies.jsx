@@ -13,7 +13,7 @@ const Residencies = () => {
     </div>
   }
   return (
-    <div className="r-wrapper">
+    <div id="res" className="r-wrapper">
       <div className="residencies">
         <div className="residencies-title">
           <span className="orangeText">

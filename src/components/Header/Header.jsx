@@ -23,10 +23,10 @@ const Header = () => {
           </ul>
         </div> */}
         <ul className='navbar-menu' style={getMenuStyles(menuOpen)}>
-            <li><a href="">Residencies</a></li>
-            <li><a href="">Our Value</a></li>
-            <li><a href="">Contact Us</a></li>
-            <li><a href="">Get Started</a></li>
+            <li><a href="#res">Residencies</a></li>
+            <li><a href="#our-value">Our Value</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+            <li><a href="#get-started">Get Started</a></li>
             <li><button>Contact</button></li>
           </ul>
       </div>
