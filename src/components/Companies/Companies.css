@@ -1,0 +1,17 @@
+.company-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:1rem;
+    padding:2rem;
+    max-width: 1280px;
+    margin:auto;
+}
+.company-content img{
+    width: 9rem;
+}
+@media(max-width:768px){
+    .company-content{
+        flex-direction: column;
+    }
+}

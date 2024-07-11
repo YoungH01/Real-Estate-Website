@@ -1,0 +1,119 @@
+.contact{
+    display: flex;
+    margin:auto;
+    max-width: 1280px;
+    padding:2rem;
+}
+.contact-left{
+    display:flex;
+    flex-direction: column;
+    gap:.5rem;
+    flex:1;
+    padding-left:100px;
+}
+.contact-right{
+    flex:1;
+    display: flex;
+    justify-content: center;
+}
+.contact-img img{
+    width:30rem;
+    height:35rem;
+    border-radius: 15rem 15rem 0 0;
+}
+.contact-model{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.contact-model .contact-row{
+    display: flex;
+}
+.contact-row .contact-content{
+    display: flex;
+    flex-direction: column;
+    width: 16rem;
+    padding: 1rem;
+    border: .8px solid rgba(128, 128, 128, .143);
+    border-radius: 5px;
+    gap: 1rem;
+    transition: all .3s ease-in;
+}
+.contact-row .contact-content:hover{
+    cursor: pointer;
+    scale: 1.1;
+    box-shadow: 0px 23px 21px -8px rgba(136, 160, 255, .25);
+}
+.contact-content .contact-up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-detail{
+    display: flex;
+    flex-direction: column;
+}
+.contact-detail .primaryText{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.contact-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #eeeeff;
+    border-radius: 5px;
+    color:#4066ff;
+}
+.contact-low{
+    display:flex;
+    justify-content: center;
+}
+.contact-low button{
+    width: 100%;
+    color: #4066ff;
+    font-size: .9rem;
+    font-weight: 600;
+    padding: .6rem 1.4rem;
+    border: none;
+    border-radius: 4px;
+    transition: all .3s ease-in;
+    background: #eeeeff;
+}
+.contact-low button:hover{
+    cursor: pointer;
+    background: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
+    color: #fff;
+    scale: .8;
+}
+@media(max-width:1300px){
+    .contact{
+        flex-direction: column;
+        gap:1rem
+    }
+    .contact-model .contact-row{
+        flex-direction: column;
+        width: 100%;
+    }
+    .contact-left{
+        padding-left: 0px;
+    }
+    .contact-row .contact-content{
+        width:100%;
+    }
+    .contact-row .contact-content:hover{
+        scale: 1.03;
+    }
+}
+@media(max-width:640px){
+    .contact-img{
+        width:95%;
+        height:25rem;
+    }
+    .contact-img img{
+        width:100%;
+        height: 100%;
+    }
+}
